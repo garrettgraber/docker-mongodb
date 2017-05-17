@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Building city-data.."
-docker build -t city-data . 
+echo "Building data-planet.."
+docker build -t data-planet . 
 # docker build --no-cache -t location-dbase .
 
 echo "Build Done!"

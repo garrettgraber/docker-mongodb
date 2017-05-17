@@ -1,8 +1,8 @@
 #!/bin/bash
 
-docker rm -f city-data
-echo "Running city-data..."
+docker rm -f data-planet
+echo "Running data-planet..."
 
 
 
-docker run --name city-data  -v /${PWD}/../://root/app  city-data
+docker run --name data-planet  -v /${PWD}/../://root/app  data-planet
