@@ -5,4 +5,4 @@ echo "Running data-planet..."
 
 
 
-docker run --name data-planet  -v /${PWD}/../://root/app  data-planet
+docker run --name data-planet  -v /${PWD}/../://root/app  gmoneycool/data-planet
